@@ -39,6 +39,7 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
                 handleDiameter={30}
                 offColor={shade(0.15, colors.primary)}
                 onColor={colors.secundary}
+                offHandleColor="#333333"
             />
             
             <Span>{currentDate}</Span>
