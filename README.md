@@ -3,7 +3,7 @@
 
 <img src="public/tela_inicial.png">
 
-## 🚀 Tecnologias | Dependências
+## 🛠 Tecnologias | Dependências
 
 <p>Principais ferramentas que foram usadas na construção do projeto</p>
 

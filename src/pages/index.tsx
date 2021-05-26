@@ -4,6 +4,8 @@ import { format, parseISO } from 'date-fns'
 import { api } from '../services/api'
 import { convertDurationToTimeString } from '../utils/convertDurationToTimeString'
 
+import { Li, TitleEpisode, Button, Th, Td } from './home'
+
 import Image from 'next/image'
 import Head from 'next/head'
 import Link from 'next/link'
@@ -45,7 +47,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
           <ul>
             {latestEpisodes.map((episode, index) => {
               return (
-                <li key={episode.id}>
+                <Li key={episode.id}>
                   <Image 
                     width={192}
                     height={192}
@@ -56,16 +58,16 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
 
                   <div className={styles.episodeDetails}>
                     <Link href={`/episodes/${episode.id}`}>
-                      <a>{episode.title}</a>
+                      <TitleEpisode>{episode.title}</TitleEpisode>
                     </Link>
                     <p>{episode.members}</p>
                     <span>{episode.durationAsString}</span>
                   </div>
 
-                  <button type='button' onClick={() => playList(episodeList, index)}>
+                  <Button type='button' onClick={() => playList(episodeList, index)}>
                     <img src="/play-green.svg" alt="Tocar episódio"/>
-                  </button>
-                </li>
+                  </Button>
+                </Li>
               )
             })}
           </ul>
@@ -77,19 +79,19 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
             <table cellSpacing={0}>
               <thead>
                 <tr>
-                  <th></th>
-                  <th>Podcast</th>
-                  <th>Integrantes</th>
-                  <th>Data</th>
-                  <th>Duração</th>
-                  <th></th>
+                  <Th></Th>
+                  <Th>Podcast</Th>
+                  <Th>Integrantes</Th>
+                  <Th>Data</Th>
+                  <Th>Duração</Th>
+                  <Th></Th>
                 </tr>
               </thead>
               <tbody>
                 {allEpisodes.map((episode, index) => {
                   return (
                     <tr key={episode.id}>
-                      <td style={{ width: 72 }}>
+                      <Td style={{ width: 72 }}>
                         <Image
                           width={120}
                           height={120}
@@ -97,20 +99,20 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
                           alt={episode.title}
                           objectFit="cover"
                         />
-                      </td>
-                      <td>
+                      </Td>
+                      <Td>
                         <Link href={`/episodes/${episode.id}`}>
-                          <a>{episode.title}</a>
+                          <TitleEpisode>{episode.title}</TitleEpisode>
                         </Link>
-                      </td>
-                      <td>{episode.members}</td>
-                      <td style={{ width: 100 }}>{episode.publishedAt}</td>
-                      <td>{episode.durationAsString}</td>
-                      <td>
-                        <button type='button' onClick={() =>  playList(episodeList, index + latestEpisodes.length)}>
+                      </Td>
+                      <Td>{episode.members}</Td>
+                      <Td style={{ width: 100 }}>{episode.publishedAt}</Td>
+                      <Td>{episode.durationAsString}</Td>
+                      <Td>
+                        <Button type='button' onClick={() =>  playList(episodeList, index + latestEpisodes.length)}>
                           <img src="/play-green.svg" alt="Tocar episódio"/>
-                        </button>
-                      </td>
+                        </Button>
+                      </Td>
                     </tr>
                   )
                 })}

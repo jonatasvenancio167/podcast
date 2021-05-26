@@ -1,5 +1,5 @@
-import { Container } from './styles'
-import { ThemeContext } from 'styled-components'  
+import { Container, Paragraph, Span } from './styles'
+import { ThemeContext } from 'styled-components' 
 
 import styles from './styles.module.scss'
 import Switch from 'react-switch'
@@ -26,7 +26,7 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
         <Container>
             <img src="/logo.svg" alt="Podcastr"/>
             
-            <p className={styles.paragraph}> O melhor para você ouvir, sempre </p>
+            <Paragraph>O melhor para você ouvir, sempre</Paragraph>
 
             <Switch 
                 onChange={toggleTheme}
@@ -41,7 +41,7 @@ const Header: React.FC<Props> = ({ toggleTheme }) => {
                 onColor={colors.secundary}
             />
             
-            <span className={styles.span}>{currentDate}</span>
+            <Span>{currentDate}</Span>
         </Container>
     )
 }
