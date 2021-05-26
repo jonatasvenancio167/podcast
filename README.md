@@ -1,5 +1,5 @@
 <div align='center'>
-    <img src='public/logo.svg'>
+    <img src='public/logo.svg' width='70%'>
 </div>
 <p>Um app desenvolvido para os amantes de podcast, onde vai ter uma lista com vários podcast que o usuário poderá escutar a vontade.</p>
 
