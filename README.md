@@ -7,16 +7,14 @@
 
 <p>Principais ferramentas que foram usadas na construção do projeto</p>
 
-<h2>Tecnologias</h2>
-<hr>
+<h3>Tecnologias</h3>
 
 ✔️ NextJs <br>
 ✔️ React <br>
 ✔️ Sass <br>
 ✔️ TypeScript <br>
 
-<h2>Dependências</h2>
-<hr>
+<h3>Dependências</h3>
 
 ✔️ Axios <br>
 ✔️ date-fns <br>
