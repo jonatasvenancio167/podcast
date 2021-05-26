@@ -1,4 +1,6 @@
-<h1 align="center">Podcastr</h1>
+<div align='center'>
+    <img src='public/logo.svg'>
+</div>
 <p>Um app desenvolvido para os amantes de podcast, onde vai ter uma lista com vários podcast que o usuário poderá escutar a vontade.</p>
 
 <img src="public/tela_inicial.png">
