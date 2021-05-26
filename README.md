@@ -3,24 +3,68 @@
 
 <img src="public/tela_inicial.png">
 
-## 🚀 Tecnologias
+## 🚀 Tecnologias | Dependências
 
-<p>Principais tecnologias utilizadas no projeto</p>
+<p>Principais ferramentas que foram usadas na construção do projeto</p>
 
-- ✔️ NextJs
-- ✔️ Axios
-- ✔️ rc-slider
-- ✔️ react-dom
-- ✔️ react
-- ✔️ date-fns
-- ✔️ TypeScript
-- ✔️ Sass
+<h2>Tecnologias</h2>
+<hr>
 
-## 📖 Tutorial
+✔️ NextJs <br>
+✔️ React <br>
+✔️ Sass <br>
+✔️ TypeScript <br>
 
-Para executar o projeto basta instalar o "yarn install", assim ele realizará as instalações de todas dependências. 
+<h2>Dependências</h2>
+<hr>
 
-Concluído a instalação, basta rodar o "yarn server" para ele subir o JSON que irá servir como nosso modelo de consumo para uma futura API, e depois o "yarn dev" para rodar o projeto.
+✔️ Axios <br>
+✔️ date-fns <br>
+✔️ polished <br>
+✔️ rc-slider <br>
+✔️ react-dom <br>
+✔️ react-switch <br>
+✔️ styled-component <br>
 
+## <h4 align="center"> 
+    🚧 Podcastr 🚀 em construção... 🚧 
 
+## pré-requisito
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: 
+
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+
+Além disso é bom ter um editor para trabalhar com o código como [VsCode](https://code.visualstudio.com/download)
+
+### 🎲 Rodando o projeto
+
+```bash
+
+#clone este repositório
+
+$ git clone < https://github.com/jonatasvenancio167/podcast.git >
+
+## acesse a pasta do projeto no terminal/cmd
+
+$ cd podcast
+
+## instale as dependencias 
+
+$ yarn install
+
+## execute a aplicação em modo de desenvolvimento 
+Obs: Para executar a aplicação será necessário dois terminais abertos
+
+1 - Primeiro terminal:
+
+$ yarn server
+
+2 - segundo terminal: 
+
+$ yarn dev
+
+# O servidor iniciará na porta:3000, acesse <http://localhost:3000>
+
+```
 
