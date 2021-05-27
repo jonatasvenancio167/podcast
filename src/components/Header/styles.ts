@@ -16,7 +16,7 @@ export const Paragraph = styled.p`
   margin-left: 2rem;
   padding: 0.25rem 0 0.25rem 2rem;
   color: ${props => props.theme.colors.paragraph_header};
-  border-left: 1px solid #e6e8eb;
+  border-left: 1px solid ${props => props.theme.colors.paragraph_header};
 `
 
 export const Span = styled.span`
