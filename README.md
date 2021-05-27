@@ -33,9 +33,9 @@
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: 
 
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/).
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e e [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable).
 
-Além disso é bom ter um editor para trabalhar com o código como [VsCode](https://code.visualstudio.com/download)
+Além disso é bom ter um editor para executar o código como [VsCode](https://code.visualstudio.com/download)
 
 ### 🎲 Rodando o projeto
 
