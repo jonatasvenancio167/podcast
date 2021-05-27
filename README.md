@@ -3,7 +3,7 @@
 </div>
 <p>Um app desenvolvido para os amantes de podcast, onde vai ter uma lista com vários podcast que o usuário poderá escutar a vontade.</p>
 
-<img src="public/tela_inicial.png">
+<img src="public/tela_inicial.gif">
 
 ## 🛠 Tecnologias | Dependências
 
@@ -43,7 +43,7 @@ Além disso é bom ter um editor para executar o código como [VsCode](https://c
 
 #clone este repositório
 
-$ git clone < https://github.com/jonatasvenancio167/podcast.git >
+$ git clone https://github.com/jonatasvenancio167/podcast.git
 
 ## acesse a pasta do projeto no terminal/cmd
 
